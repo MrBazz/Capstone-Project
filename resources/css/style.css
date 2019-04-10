@@ -1,1 +1,135 @@
 /* CSS Document */
+/* Universal styles */
+body {
+  font-family: Helvetica, serif;
+  background-color: white;
+}
+/* Header and Navigation */
+header {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  font-weight: bold;
+  height: 64px;
+}
+header nav {
+  padding-right: 50px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 16px;
+  margin-right: 24px;
+}
+.logo .colmar {
+  color: dimgray;
+}
+.logo .academy {
+  color: darkgray;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.logo img {
+  height: 32px;
+  margin-left: 24px;
+}
+/* First column */
+.first-column {
+  display: flex;
+  width: 100%;
+  background-color: darkgray;
+  text-align: center;
+}
+.first-column img {
+  display: flex;
+  width: 60%;
+  padding: 32px 24px;
+}
+.first-column h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 200px;
+  color: dimgrey;
+  line-height: 1;
+}
+.first-column h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: grey;
+  line-height: 1.5;
+  padding-top: 25px;
+}
+.first-column .button {
+  color: white;
+  background-color: dimgray;
+  padding: 10px 120px;
+  line-height: 3;
+}
+/* Medium column */
+.medium-column {
+  display: flex;
+  width: 100%;
+  background-color: white;
+
+}
+.medium-column img {
+  display: flex;
+  width: 60%;
+  padding: 32px 24px;
+}
+.medium-column h1 {
+  font-size: 38px;
+  font-weight: bold;
+  color: dimgrey;
+  line-height: 2;
+  padding-left: 24px;
+  width: 60%;
+}
+.medium-column p {
+  font-size: 22px;
+  color: darkgray;
+  width: 60%;
+  line-height: 2;
+  padding-left: 24px;
+  }
+.medium-column h3 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 2;
+  padding-left: 24px;
+}
+/* Third column */
+.third-column {
+  display: inline-block;
+  width: 100%;
+  background-color: darkgray;
+  align-items: center;
+  justify-content: center;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+.third-column h1 {
+  font-size: 75px;
+  text-align: center;
+  font-weight: bold;
+  padding: 32px 0;
+  color: black;
+}
+.third-column img {
+  display: inline-block;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+.third-column span {
+  background-color: white;
+
+}
+/* Final column */
+.final-column {
+  
