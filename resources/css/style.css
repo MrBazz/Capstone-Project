@@ -13,13 +13,16 @@ header {
   font-weight: bold;
   height: 64px;
 }
-header nav {
-  padding-right: 50px;
+header nav a {
+  padding-right: 18px;
+  text-decoration: none;
+  color: dimgray;
 }
 nav ul li {
   display: inline-block;
   padding: 16px;
   margin-right: 24px;
+
 }
 .logo .colmar {
   color: dimgray;
@@ -67,31 +70,40 @@ nav ul li {
   background-color: dimgray;
   padding: 10px 120px;
   line-height: 3;
+  text-decoration: none;
 }
 /* Medium column */
 .medium-column {
   display: flex;
   width: 100%;
   background-color: white;
-
 }
-.medium-column img {
-  display: flex;
+.medium-column .containers {
+  width: 40%;
+  display: inline-block;
+  padding-top: 32px;
+  }
+.medium-column .information-main {
   width: 60%;
-  padding: 32px 24px;
 }
-.medium-column h1 {
+.medium-column .information-main img {
+  display: flex;
+  width: 90%;
+  padding: 32px 24px;
+  margin: auto;
+}
+.medium-column .information-main h1 {
   font-size: 38px;
   font-weight: bold;
   color: dimgrey;
   line-height: 2;
   padding-left: 24px;
-  width: 60%;
+  width: 85%;
 }
-.medium-column p {
+.medium-column .information-main p {
   font-size: 22px;
   color: darkgray;
-  width: 60%;
+  width: 85%;
   line-height: 2;
   padding-left: 24px;
   }
@@ -101,15 +113,30 @@ nav ul li {
   line-height: 2;
   padding-left: 24px;
 }
+.medium-column .container  {
+  border: 1px solid grey;
+  display: flex;
+}
+.medium-column .container-guest  {
+  border: 1px solid grey;
+  display: flex;
+
+}
+.medium-column span {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  align-content: center;
+  }
 /* Third column */
 .third-column {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: darkgray;
-  align-items: center;
-  justify-content: center;
   padding-left: 72px;
   padding-right: 72px;
+  justify-content: space-between;
 }
 .third-column h1 {
   font-size: 75px;
@@ -120,16 +147,6 @@ nav ul li {
 }
 .third-column img {
   display: inline-block;
-  width: 35%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: auto;
+  padding-right: 24px;
 }
-.third-column span {
-  background-color: white;
-
-}
-/* Final column */
-.final-column {
-  
