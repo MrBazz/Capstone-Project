@@ -121,7 +121,7 @@ h2 {
   }
 }
 
-/* Header */
+/* Header and navigation */
 
 header {
   padding: 1rem 1.5rem;
@@ -237,7 +237,7 @@ header .mobile {
   }
 }
 
-/* Information */
+/* Information section */
 
 #information-section .main-content h2 {
   padding-top: 2rem;
@@ -368,7 +368,7 @@ header .mobile {
   }
 }
 
-/* Footer */
+/* Footer section */
 
 footer {
   display: flex;
