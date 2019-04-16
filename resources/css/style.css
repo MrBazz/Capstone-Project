@@ -220,7 +220,7 @@ header .mobile {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 760px) {
   #banner {
     flex-direction: column;
     padding: 0;
@@ -301,6 +301,9 @@ header .mobile {
 .course h2,
 .course h3 {
   padding-bottom: 1rem;
+}
+.course p {
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 760px) {
